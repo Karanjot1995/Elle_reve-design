@@ -1,0 +1,81 @@
+.navbar-collapse, .navbar-form{
+	border:none;
+}
+#clothing, #electronics{
+	background:hsl(0, 100%, 98%);
+}
+#clothing img, #decor img{
+
+	height:auto;
+	width:370px;
+}
+.thumbnail{
+	padding:20px;
+	border:none;
+}
+#clothing .container-fluid, #decor .container-fluid, #electronics .container-fluid{
+	background:white;
+	margin:20px 0px;
+}
+#decor{
+	background:#f7f7f7;
+}
+.container-fluid .jumbotron{
+	margin:0;
+	padding:30px 20px;
+	border-radius:0;
+} 
+p{
+	font-size: 15px!important;
+}
+#footer a{
+	color: #333;
+}
+.navbar{
+	margin:0;
+	border:none;
+	border-radius: 0;
+}
+
+@media all and (min-width:769px){
+   .carousel-inner > .item > img{
+   	background-size: 100% 100%;
+   	height:500px;
+	width:100%;
+  }
+  .jumbotron{
+  	padding:30px 40px!important;
+  }
+  .navbar{
+  	position: relative;
+  }
+  .navbar-brand{
+  	position: absolute;
+  	left: 50%;
+  	transform: translate(-50%);
+  }
+}
+@media all and (max-width:768px){
+   .carousel-inner > .item > img{
+   	background-size: 100% 100%;
+	height:400;
+	width:100%;
+  }
+  h3{
+  	font-size:20px;
+  }
+}
+@media all and (max-width: 450px){
+	h3{
+		font-size: 12px;
+	}
+	h2{
+		font-size: 15px;
+	}
+	.carousel-inner > .item > img{
+	height:300;
+    }
+    #footer p{
+    	font-size: 10px!important;
+    }
+}

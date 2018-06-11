@@ -1,0 +1,220 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>bootstrap</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid" style="padding: 0;">
+		<div class="navbar navbar-default" style="background:black">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false" data-target="#bs-navbar-collapse">
+
+            <span class="sr-only"></span>
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <img class="navbar-brand" style="padding:0;" src="images/shop-1.jpg" height="30px" width="100px">
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+              <li><a href="#">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Email</a></li>
+                  <li><a href="#">Phone</a></li>
+                  <li><a href="#">Fax</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="search">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+        </div>
+
+
+		<div id="theCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#theCarousel" data-slide-to="1"></li>
+                <li data-target="#theCarousel" data-slide-to="2"></li>
+            </ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img class="img-responsive" src="images/carousel_1.jpeg">
+					<div class="slide1"></div>
+					<div class="carousel-caption">
+						<h1>Thousands of Styles</h1>
+						<p>Attractive discounts with cashback offer</p>
+						<p><a href="#clothing" role="button" class="btn btn-primary btn-sm">Clothing</a></p>
+					</div>
+				</div>
+				<div class="item">
+					<img class="img-responsive" src="images/carousel_2.jpg">
+					<div class="slide2"></div>
+					<div class="carousel-caption">
+						<h1>Thousands of Products</h1>
+						<p>Attractive discounts with cashback offer</p>
+						<p><a href="#decor" role="button" class="btn btn-primary btn-sm">Home Decor</a></p>
+					</div>
+				</div>
+				<div class="item">
+					<img class="img-responsive" src="images/carousel_3.jpg">
+					<div class="slide3"></div>
+					<div class="carousel-caption">
+						<h1>Electronics</h1>
+						<p>Attractive discounts with cashback offer</p>
+						<p><a href="#electronics" role="button" class="btn btn-primary btn-sm">Electronics</a></p>
+					</div>
+				</div>
+			</div>
+			<a href="#theCarousel" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a href="#theCarousel" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+
+
+		<div class="jumbotron" id="clothing">
+			<h2><b>CLOTHING</b></h2>
+			<div class="container-fluid">
+				<h3><b>Men's Collection</b></h3>
+				<div class="row">
+			        <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img class="img-responsive" src="images/blue.jpg">
+				        <h3>Blue cotton shirt</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/red-1.jpg">
+				        <h3>Deadpool T-shirt</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/superman.jpg">
+				        <h3>Superman T-shirt</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/black.jpg">
+				        <h3>Printed T-shirt</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+			    </div>
+			</div>
+
+			<div class="container-fluid">
+				<h3><b>Women's Collection</b></h3>
+				<div class="row">
+			        <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img class="img-responsive" src="images/woman_1.jpg">
+				        <h3>Printed T-shirt</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/woman_2.jpg">
+				        <h3>Branded T-shirt</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/woman_3.jpg">
+				        <h3>Woman Up T-shirt</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+			    	</div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/woman_4.jpg">
+				        <h3>Gray cotton T-shirt</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+			    </div>
+			</div>
+
+		</div>
+
+		<div class="jumbotron" id="decor">
+			<h2><b>HOME DECOR</b></h2>
+			<div class="container-fluid">
+				<div class="row">
+			        <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/decor_1.jpg">
+				        <h3>Sofa Sets</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/decor_2.jpg">
+				        <h3>Wall Hangings</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/decor_3.jpg">
+				        <h3>Lamp Shades</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/decor_4.jpg">
+				        <h3>Coffee Tables</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="jumbotron" id="electronics"> 
+			<h2><b>Electronics</b></h2>
+			<div class="container-fluid">
+				<div class="row">
+			        <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/mobile.jpg">
+				        <h3>Mobile Phones</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/tv.jpg">
+				        <h3>LED Television</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/watch.jpg">
+				        <h3>Wrist Watches</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				    <div class="thumbnail col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+				        <img src="images/coffee.jpg">
+				        <h3>Coffee Makers</h3>
+				        <button class="btn btn-primary btn-sm">Add to Cart</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="jumbotron text-center" id="footer" style="background:black;">
+			<div>
+				<h3>Help</h3>
+				<a href="#"><p>Payments</p></a>
+				<a href="#"><p>Shipping</p></a>
+				<a href="#"><p>cancellation & Returns</p></a>
+			</div>
+		</div>
+
+
+
+	</div>
+
+</body>
+</html>
